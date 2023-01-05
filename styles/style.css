@@ -1,0 +1,34 @@
+body {
+    max-width: 550px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  .header {
+    background-color: #209CEE;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(63, 13, 13, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .header img {
+    border-radius: 10%;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .main h2 {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  }
+
+  .footer {
+    background-color: #209CEE;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
