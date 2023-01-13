@@ -2,6 +2,7 @@ body {
     max-width: 550px;
     margin: 0 auto;
     padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
   }
   
   .header {
@@ -33,4 +34,5 @@ body {
     text-align: center;
     color: white;
     padding: 10px;
+    font-family: 'Oswald', sans-serif;
   }
