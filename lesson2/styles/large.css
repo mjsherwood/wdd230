@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+  
+  body, h1, h2, p {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .col1, .col2, .col3 {
+    background-color: gray;
+    outline: 2px solid blue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h3 {
+    background-color: blue;
+    color: white;
+    margin: 5px;
+  }
+  
+  p {
+    margin: 5px;
+  }
+  
+  footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+  
