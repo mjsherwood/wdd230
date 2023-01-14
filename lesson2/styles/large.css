@@ -38,10 +38,16 @@
   p {
     margin: 5px;
   }
+
+  a {
+    margin: 5px;
+  }
   
   footer {
     background-color: #0d3e5f;
     color: white;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
