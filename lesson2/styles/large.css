@@ -11,6 +11,9 @@ html, body {
     grid-template-rows: auto;
     grid-gap: 5px;
     margin-top: 0px;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   body, h1, h2, p {
