@@ -4,6 +4,26 @@
 /*--Header Styling--*/
 
 /*--Nav Styling--*/
+/*Flex ********************
+nav ul { display: flex; }
+nav ul li { flex: 1 1 auto; } 
+*/ 
+/*Grid *********************/
+nav ul {
+	display: grid;
+ 	grid-template-columns: repeat(5, 1fr); 
+	grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+} 
+
+nav a {
+	font-size: 1rem;
+}
+
+nav a:hover {
+	background-color: #bbb;
+	color: #36454f; 
+	--d: 75%;
+}
 nav ul li a {
     padding: .5rem 1rem;
 }

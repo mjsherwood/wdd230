@@ -2,8 +2,9 @@
 @media only screen and (min-width: 35rem) {
 
 /*--Header Styling--*/
-
-
+header img {
+    max-width: 7rem;
+}
 
 /*--Nav Styling--*/
 nav button {display: none;}
@@ -22,8 +23,9 @@ nav ul li a {
 /*--Footer Styling--*/
 .footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr repeat;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
 }
 
 .footer img {
@@ -32,7 +34,7 @@ nav ul li a {
 }
 
 .lastUpdated {
-    grid-column: 1 / 5;
+    grid-column: 1 / 4;
     grid-row: 2 / 3;
 }
 
@@ -42,7 +44,7 @@ nav ul li a {
 }
 
 .contactInfo {
-    grid-column: 4 / 5;
+    grid-column: 3 / 4;
 }
 
 /*--Main Styling--*/

@@ -7,79 +7,83 @@
 <title>Myrtle Creek Chamber of Commerce.</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="css/normalize.css" rel="stylesheet">
-<link href="css/base.css" rel="stylesheet">
-<link href="css/medium.css" rel="stylesheet">
-<link href="css/large.css" rel="stylesheet">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/base.css" rel="stylesheet">
+<link href="styles/medium.css" rel="stylesheet">
+<link href="styles/large.css" rel="stylesheet">
 </head>
 
 <body>
-	<header>
-        <img src="images/logo.png" alt="Logo of Myrtle Creek chamber of commerce">
-        <h1>Myrtle Creek Chamber of Commerce</h1>
-        <div class="socialMedia">
-            <a target="_blank" rel="noopener" href="https://www.facebook.com/MyrtleCreekOregon/" class="fa fa-facebook"></a>
-            <a target="_blank" rel="noopener" href="https://twitter.com/beautiful97457?lang=en" class="fa fa-twitter"></a>
-        </div>
-        <span id="date"></span>
-    </header>
-    <nav>
+    <div class="app">
+	    <header>
+            <img src="images/logo.png" alt="Logo of Myrtle Creek chamber of commerce">
+            <h1>Myrtle Creek Chamber of Commerce</h1>
+            <div class="socialMedia">
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/MyrtleCreekOregon/" class="fa fa-facebook"></a>
+                <a target="_blank" rel="noopener" href="https://twitter.com/beautiful97457?lang=en" class="fa fa-twitter"></a>
+            </div>
+            <span id="date"></span>
+        </header>
+        <nav>
 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
-        <ul id="primaryNav">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
-            <li><a href="contact.html">Contact</a></li>    
-        </ul>
-    </nav>
-    <main>
-        <div class="hero">
-            <p>Hero with site name and call to action</p>
-        </div>
-        <div class="event">
-            <p>Event</p>
-        </div>
-        <div class="weather">
-            <p>Weather</p>
-        </div>
-        <div class="newsRelease">
-            <p>News Release</p>
-        </div>
-        <div class="spotlight">
-            <div class="spotlight1">
-                <p>Spotlight 1</p>
+            <ul id="primaryNav">
+                <li><a href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>    
+            </ul>
+        </nav>
+        <main>
+            <div class="hero">
+                <p>Hero with site name and call to action</p>
             </div>
-            <div class="spotlight2">
-                <p>Spotlight 2</p>
+            <div class="event">
+                <p>Event</p>
             </div>
-            <div id="spotlight3" class="spotlight3">
-                <p>Spotlight 3</p>
+            <div class="weather">
+                <p>Weather</p>
             </div>
-        </div>
-        <div id="join" class="join">
-            <p>Join</p>
-        </div>
-    </main> 
-    <footer class="footer">
-        <img src="images/logo.png" alt="Logo of Myrtle Creek chamber of commerce">
-        <div class="address">
-            <h3>Myrtle Creek Chamber of Commerce</h3>
-            <p>P.O. Box 31</p>
-            <p>Myrtle Creek, OR 97457</p>
-        </div>
-        <div class="contactInfo">
-            <p>secretary@myrtlecreekchamber.com</p>
-            <p>541-863-3037</p>
-            <p>Location Map</p>
-        </div>
-        <div class="lastUpdated">     
-        &copy; <span id="year"></span> Myrtle Creek Chamber .:|:. Michael J. Sherwood .:|:. Nevada
-        Last updated: <span id="lastUpdated"></span>
-        </div>
-    </footer>
+            <div class="newsRelease">
+                <p>News Release</p>
+            </div>
+            <div class="spotlight">
+                <div class="spotlight1">
+                    <p>Spotlight 1</p>
+                </div>
+                <div class="spotlight2">
+                    <p>Spotlight 2</p>
+                </div>
+                <div id="spotlight3" class="spotlight3">
+                    <p>Spotlight 3</p>
+                </div>
+            </div>
+            <div id="join" class="join">
+                <p>Join</p>
+            </div>    
+        </main>
+        <footer class="footer">
+            <img src="images/logo.png" alt="Logo of Myrtle Creek chamber of commerce">
+            <div class="address">
+                <h3>Myrtle Creek Chamber of Commerce</h3>
+                <p>P.O. Box 31</p>
+                <p>Myrtle Creek, OR 97457</p>
+            </div>
+            <div class="contactInfo">
+                <p>secretary@myrtlecreekchamber.com</p>
+                <p>541-863-3037</p>
+                <br>
+                <a target="_blank" rel="noopener" href="https://goo.gl/maps/zVgEBx6vycecKGhr9"><i class="material-icons">&#xe55f;</i>Location Map</a>
+            </div>
+            <div class="lastUpdated">     
+            &copy; <span id="year"></span> Myrtle Creek Chamber .:|:. Michael J. Sherwood .:|:. Nevada
+            Last updated: <span id="lastUpdated"></span>
+            </div>
+        </footer>
+    </div>
 
-    <script src="js/scripts.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>
