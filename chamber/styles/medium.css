@@ -6,6 +6,10 @@ header img {
     max-width: 7rem;
 }
 
+header h1 {
+	font-size: 1.7rem;
+}
+
 /*--Nav Styling--*/
 nav button {display: none;}
 
