@@ -13,6 +13,7 @@ x.onclick = toggleMenu;
 var dateOptions = {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'}
 var currentDate = new Date();
 var date = currentDate.toLocaleDateString("en-US", dateOptions);
+var day = new Date().getDay();
 
 // Set the date in the header
 document.querySelector("#date").innerHTML = date;
@@ -28,3 +29,18 @@ var lastModified = document.lastModified;
 
 // Set the last modified date in the footer
 document.querySelector("#lastUpdated").innerHTML = lastModified;
+
+// Set the days that announcement bar is shown
+
+$(document).ready(function () {
+
+if (time > start.setHours(07,30) && time < end.setHours(14,30)) {
+    $('.open').show();
+    $('.closed').hide();
+}
+else {
+    $('.open').hide();
+    $('.closed').show();
+    }
+});
+

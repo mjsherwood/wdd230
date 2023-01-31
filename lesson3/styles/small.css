@@ -11,7 +11,8 @@ body {
 }
 
 body p {
-    color: #0d3e5f
+    color: #0d3e5f;
+    margin: 5px;
 }
 
 /* phone or baseline views **************************/
@@ -28,7 +29,7 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 15px;
 }
 
 header,
@@ -39,17 +40,18 @@ footer {
 }
 
 h1 {
-    color: #8b770f;
+    color: #f1cf25;
 	font-size: 1.1rem;
 }
 h2 {
-	color: #8b770f;
+	color: #0d3e5f;
     font-size: 1rem;
 }
 
 nav {
-	background-color: #a6acb6;
-	margin: 0 auto;
+	background-color: #555;
+    margin: 0 auto;
+    padding: 5px;
 	max-width: 760px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
@@ -58,12 +60,13 @@ nav ul {
 	overflow: hidden;
 }
 nav ul li a {
+    display: block;
 	color: #fff;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
-	background: linear-gradient(90deg, transparent, #8b770f, transparent) bottom /
+	background: linear-gradient(90deg, transparent, yellow, transparent) bottom /
 		var(--d, 0) 3px no-repeat;
 	transition: 0.5s;
 }
@@ -162,7 +165,7 @@ main {
 }
 
 .grid-row-wrapper-2 > .grid-item {
-    background: #a6acb6;
+    background: #555;
 }
 
 .grid-row-wrapper-2 > .grid-item h2 {

@@ -99,8 +99,13 @@
     }
 
     .grid-row-wrapper-2 > .grid-item {
-        background: #a6acb6;
-        color: #fff
+        background: #555;
+        color: #fff;
+    }
+
+    .grid-row-wrapper-2 h1 {
+        font-size: .8rem;
+        color: #fff;
     }
 
   
