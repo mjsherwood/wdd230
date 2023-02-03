@@ -1,3 +1,4 @@
+// Change menu to hamburger menu for mobile or small viewports.
 const list = document.querySelector('ul');
 const input = document.querySelector('input');
 const button = document.querySelector('button');
@@ -22,3 +23,4 @@ button.addEventListener('click', () => {
 
   input.focus();
 });
+
