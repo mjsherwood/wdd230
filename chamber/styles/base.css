@@ -1,6 +1,6 @@
 /*--Universal Styling--*/
     /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {
+/*html {
     -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
 }
     /*----------- apply a natural box layout model to all elements --------------*/
@@ -178,7 +178,7 @@ nav ul.open {
 .footer {
     display: grid;
     place-items: center;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     background-color: #0d3e5f;
     box-shadow: 8px 4px 8px 8px rgba(0, 0, 0, 0.3), 8px 6px 20px 20px rgba(0, 0, 0, 0.3);
     text-align: center;
@@ -214,7 +214,7 @@ footer a {
 }
 
 .lastUpdated {
-    margin: .7rem none none none;
+    margin: .7rem;
     padding: .5rem;
     border-top: 1px solid rgba(255, 255, 255, .7);
 }
@@ -373,8 +373,8 @@ main {
     display: grid;
     grid-template-rows: 1fr 1fr;
     border-style: solid;
-    border-color: #555;
-    background-color: #555;
+    border-color: #0d3e5f;
+    background-color: #0d3e5f;
     padding: .5rem;
     margin: .5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -384,8 +384,8 @@ main {
     grid-row: 1 / 2;
     border-style: solid;
     border-width: 1px;
-    border-color: #0d3e5f;
-    background-color: #0d3e5f;
+    border-color: #fff;
+    background-color: #fff;
     padding: .5rem;
     margin: .5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -395,8 +395,8 @@ main {
     grid-row: 2 / 3;
     border-style: solid;
     border-width: 1px;
-    border-color: #0d3e5f;
-    background-color: #0d3e5f;
+    border-color: #fff;
+    background-color: #fff;
     padding: .5rem;
     margin: .5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -406,8 +406,8 @@ main {
     display: none;
     border-style: solid;
     border-width: 1px;
-    border-color: #0d3e5f;
-    background-color: #0d3e5f;
+    border-color: #fff;
+    background-color: #fff;
     padding: .5rem;
     margin: .5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
