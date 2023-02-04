@@ -116,17 +116,38 @@ main {
 
 
 #join {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     grid-column: 1 / 7;
     grid-row: 4 / 5;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
 }
 
 .join {
-    display: block;
     border-style: solid;
     border-width: 1px;
     border-color: #0d3e5f;
+    color: #fff;
     padding: .5rem;
     margin: .5rem;
+}
+
+.join-link {
+    background-color: #0d3e5f;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #f1cf25;
+    text-decoration: none;
+    max-width: 200px;
+    text-align: center;
 }
 
 
