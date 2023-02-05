@@ -10,6 +10,19 @@ header h1 {
 }
 
 /*--Nav Styling--*/
+nav button {display: none;}
+
+nav ul#primaryNav {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid rgba(0,0,0,.3);
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0,0,0,.3);
+}
+
 nav ul {
 	display: grid;
  	grid-template-columns: repeat(5, 1fr); 
@@ -17,7 +30,7 @@ nav ul {
 } 
 
 nav a {
-	font-size: 1rem;
+	font-size: 1.1rem;
 }
 
 nav a:hover {
@@ -26,7 +39,7 @@ nav a:hover {
 	--d: 75%;
 }
 nav ul li a {
-    padding: .5rem 1rem;
+    padding: .75rem;
 }
 
 /*--Footer Styling--*/
