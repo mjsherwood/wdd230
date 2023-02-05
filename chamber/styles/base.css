@@ -219,9 +219,8 @@ footer a {
     border-top: 1px solid rgba(255, 255, 255, .7);
 }
 
-.material-icons {
-    font-size: 1rem;
-    color: #fff;
+.fa-location-dot {
+    padding: .5rem;
 }
 
 .footer a {
