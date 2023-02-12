@@ -365,10 +365,12 @@ figure {
 }
 .weather img {
     max-height: 65px;
+    border-radius: 15%;
 }
 
 .weather h2, .weather h1 {
     color: #0d3e5f;
+    text-align: center;
 }
 
 .weather-top {
@@ -380,8 +382,8 @@ figure {
 .weather-image {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    justify-content: left;
-    border-radius: 15%;
+    justify-self: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .weather-temp {
