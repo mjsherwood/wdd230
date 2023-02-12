@@ -69,11 +69,23 @@ main {
     max-height: 400px;
 }
 
+.overlay-link {
+    font-size: 1rem;
+}
+
+.slide h2 {
+    font-size: 1rem;
+}
+
 .slide img {
     max-height: 400px;
     min-height: 400px;
     width: 100%;
     object-fit: cover;
+}
+
+.dots-container {
+    justify-content: center;    
 }
 
 .event {
