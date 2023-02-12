@@ -65,6 +65,10 @@ main {
     max-height: 400px;
 }
 
+.hero-photo {
+    width:  100%;
+}
+
 .slide {
     max-height: 400px;
 }
