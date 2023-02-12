@@ -100,10 +100,9 @@ header h1 {
     text-align: right;
 }
 
-     
-    /*--Hover Effect--*/
-.twitter {
-    border-radius: 50%;    
+.twitter img {
+    border-radius: 50%;
+    max-height: 45px;   
 }
 
 
