@@ -323,8 +323,7 @@ figure {
 
 .event p, .event h1, .event h2, .event h3 {
     color: #fff;
-    margin: .5rem;
-    padding: .2rem;
+    margin: .3rem;
 }
 
 .events {
@@ -343,6 +342,7 @@ figure {
     background-color: #0d3e5f;
     color: #fff;
     padding: 5px;
+    margin: .5rem;
     border-radius: 5px;
     border-style: solid;
     border-color: rgb(241, 207, 37);
@@ -359,6 +359,13 @@ figure {
     padding: 1rem;
     margin: .5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.weather p {
+    margin: .2rem;
+}
+.weather img {
+    max-height: 65px;
 }
 
 .weather h2, .weather h1 {
@@ -411,8 +418,9 @@ figure {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.newsRelease h2 {
+.newsRelease h2, .newsRelease p {
     color: #0d3e5f;
+    margin: .7rem;
 }
 
 .spotlight {
@@ -429,8 +437,13 @@ figure {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.spotlight h2 {
+.spotlight h2, .spotlight p {
     color: #0d3e5f;
+    margin: .2rem;
+}
+
+.spotlight img {
+    max-height: 65px;
 }
 
 .spotlight1, .spotlight2, .spotlight3 {
@@ -441,6 +454,7 @@ figure {
     width: 100%;
     padding: .5rem;
     margin: .5rem;
+    justify-self: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -470,6 +484,17 @@ figure {
     margin-left: auto;
     margin-right: auto;
     padding:  10px;
+}
+
+.join-link {
+    background-color: #0d3e5f;
+    color: #fff;
+    padding: 5px;
+    margin: .5rem;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(241, 207, 37);
+    text-decoration: none;
 }
 
 /*--end base--*/
