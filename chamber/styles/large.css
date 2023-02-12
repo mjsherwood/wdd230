@@ -92,6 +92,14 @@ main {
     grid-row: 2 / 3;
 }
 
+.weather h1 {
+    font-size: 1.7rem;
+}
+
+.weather h2 {
+    font-size: 1.3rem;
+}
+
 .newsRelease {
     grid-column: 2 / 4;
     grid-row: 3 / 4;
@@ -103,6 +111,10 @@ main {
     grid-template-rows: 1fr 1fr 1fr;
     grid-column: 4 / 5;
     grid-row: 1 / 4;
+}
+
+.spotlight img {
+    max-height: 65px;
 }
 
 .spotlight1 {

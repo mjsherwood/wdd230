@@ -107,6 +107,15 @@ main {
     grid-row: 5 / 6;
 }
 
+.weather h1 {
+    font-size: 1.7rem;
+}
+
+.weather h2 {
+    font-size: 1.3rem;
+}
+
+
 .newsRelease {
     grid-column: 1 / 7;
     grid-row: 2 / 3;
