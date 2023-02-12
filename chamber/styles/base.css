@@ -321,7 +321,7 @@ figure {
     position: relative;
 }
 
-.event p, h2, h3 {
+.event p, .event h1, .event h2, .event h3 {
     color: #fff;
     margin: .5rem;
     padding: .2rem;
@@ -361,7 +361,7 @@ figure {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.weather h1, h2 {
+.weather h2, .weather h1 {
     color: #0d3e5f;
 }
 
