@@ -13,7 +13,7 @@ headers: {
     const weatherUrl = data.properties.forecast;
     return fetch(weatherUrl, {
     headers: {
-        'User-Agent': '(myweatherapp.com, contact@myweatherapp.com)'
+        'User-Agent': '(mjsherwood.github.io/wdd230/chamber, michaeljsherwood@msn.com)'
     }
     });
 })
