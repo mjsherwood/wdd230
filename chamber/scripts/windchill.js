@@ -36,9 +36,22 @@ headers: {
     document.querySelector('#weather-icon').src = weatherIcon;
     document.querySelector('#shortForecast').innerHTML = shortForecast;
         
-    // Calculate the wind chill
-    let windChill = 13.12 + 0.6215 * temperature - 11.37 * Math.pow(windSpeed, 0.16) + 0.3965 * temperature * Math.pow(windSpeed, 0.16);
-      
+    let windChill; // Declare the windChill variable outside of the if-else blocks
+
+    if (temperature < 10 && windSpeed > 4.8) {
+        // Calculate the wind chill
+        windChill = 13.12 + 0.6215 * temperature - 11.37 * Math.pow(windSpeed, 0.16) + 0.3965 * temperature * Math.pow(windSpeed, 0.16);
+    } else {
+        // Set the wind chill to NaN if it cannot be calculated
+        windChill = NaN;
+    }
+
     // Update the HTML with the wind chill
-    document.querySelector('#wind-chill').innerHTML = windChill.toFixed(1) + ' &#176;C';
+    if (isNaN(windChill)) {
+        // Display a message indicating that the wind chill cannot be calculated
+        document.querySelector('#wind-chill').innerHTML = 'N/A';
+    } else {
+        // Display the wind chill value with one decimal place and the Celsius symbol
+        document.querySelector('#wind-chill').innerHTML = windChill.toFixed(1) + ' &#176;C';
+    }
 });
