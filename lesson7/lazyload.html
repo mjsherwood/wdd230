@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Lesson 7-Lazy Load Test Page">
+<meta name="author" content="Michael Sherwood">
+<title>Lesson-7_Lazy_Load</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/small.css" rel="stylesheet">
+<link href="styles/medium.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img src="../images/michael.jpg" alt="Profile picture of Michael J. Sherwood">
+        <h1>Michael J. Sherwood</h1>
+    </header>
+    <main>
+        <img
+            class="lazy"  
+            src="https://via.placeholder.com/300x400/000000/FFFFFF?text=Placeholder"
+            data-src="https://loremflickr.com/300/400/random=1"
+            alt="Photo 1"/>
+        <img
+            class="lazy"  
+            src="https://via.placeholder.com/300x400/000000/FFFFFF?text=Placeholder"
+            data-src="https://loremflickr.com/300/400/random=2"
+            alt="Photo 2"/>
+        <img
+            class="lazy" 
+            src="https://via.placeholder.com/300x400/000000/FFFFFF?text=Placeholder"
+            data-src="https://loremflickr.com/300/400/random=3"
+            alt="Photo 3"/>
+        <img 
+            class="lazy" 
+            src="https://via.placeholder.com/300x400/000000/FFFFFF?text=Placeholder"
+            data-src="https://loremflickr.com/300/400/forest"
+            alt="Photo 4"/>
+        <img
+            class="lazy"  
+            src="https://via.placeholder.com/300x400/000000/FFFFFF?text=Placeholder"
+            data-src="https://loremflickr.com/300/400/paris"
+            alt="Photo 5"/>
+        <img
+            class="lazy"  
+            src="https://via.placeholder.com/300x400/000000/FFFFFF?text=Placeholder"
+            data-src="https://loremflickr.com/300/400/brazil"
+            alt="Photo 6"/>
+    </main>
+    <footer class="footer">
+        &copy; <span id="year"></span> .:|:. Michael J. Sherwood .:|:. Nevada
+        Last updated: <span id="lastUpdated"></span>
+    </footer>
+    <script src="scripts/lazyload.js"></script>
+    <script src="../scripts/lastUpdated.js" defer></script>
+</body>
