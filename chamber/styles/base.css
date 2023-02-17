@@ -505,8 +505,23 @@ figure {
     display: block;
     grid-column: 1 / 11;
     text-align: center;
+    width: 100%;
     margin: 10px auto 10px auto;
-    padding: 10px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.sidebar {
+    grid-column: 1 / 11;
+}
+
+.sidebar .float-element {
+    display: block;
+    position: sticky;
+    top: 20px;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 2em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -517,17 +532,17 @@ figure {
 .lazy {
     display: block;
     width: 100%;
-    grid-column: 1 / 6;
-}
+    padding: 1em;
+  }
   
-.lazy img[data-src] {
+  .lazy img[data-src] {
     filter: blur(0.2em);
     transition: filter 0.5s ease-out;
-}
+  }
   
-.lazy img.loaded {
+  .lazy img.loaded {
     filter: blur(0em);
-}
+  }
 
 /*--end base--*/
 

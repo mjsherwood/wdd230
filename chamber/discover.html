@@ -37,53 +37,55 @@
             </ul>
         </nav>
         <main class="discover">
+            <div class="sidebar">
+                <div class="float-element" id="float-element">
+                    <h3>About Myrtle Creek</h3>
+                    <p>Myrtle Creek was founded in 1865 by John Hall and officially incorporated in 1913. It was named for the groves of Oregon Myrtle</p>
+                    <ul>
+                        <li>Population: 3,535</li>
+                        <li>Was once a major logging center</li>
+                        <li>Near the beautiful South Umpqua Falls</li>
+                        <li>Home to many historic buildings</li>
+                    </ul>
+                </div>
+            </div> 
             <figure>
                 <img
                     class="lazy"  
-                    src="images/city_welcome-710lq.jpg" sizes = "100vw"
-                    data-srcset="images/city_welcome-400.webp 400w, 
-                            images/city_welcome-710.webp 600w"
-                    data-src="images/city_welcome-400.webp"
+                    src="images/city_welcome-710lq.jpg"
+                    data-src="images/city_welcome-710.webp"
                     alt="City Welcome Sign"/>
                     <p>Welcome to the great city of Myrtle Creek</p>
             </figure>
             <figure>
                 <img
                     class="lazy"  
-                    src="images/tommys-710lq.jpg" sizes = "100vw"
-                    data-srcset="images/tommys-400.webp 400w, 
-                            images/tommys-710.webp 600w"
-                    data-src="images/tommys-400.webp"
+                    src="images/tommys-710lq.jpg"
+                    data-src="images/tommys-710.webp"
                     alt="Tommy's Restaurant"/>
                     <p>Tommy's is a Myrtle Creek institution serving up great burgers in a 50's style diner overlooking the river.</p>
             </figure>
             <figure>
                 <img
                     class="lazy"  
-                    src="images/car_festival-710lq.jpg" sizes = "100vw"
-                    data-srcset="images/car_festival-400.webp 400w, 
-                            images/car_festival-710.webp 600w"
-                    data-src="images/car_festival-400.webp"
+                    src="images/car_festival-710lq.jpg"
+                    data-src="images/car_festival-710.webp"
                     alt="Car Festival"/>
                     <p>Come join us in July for the annual car show. Bring you ride if you have one and check out all the classics.</p>
             </figure>
             <figure>
                 <img
                     class="lazy"  
-                    src="images/myrtle_creek_bridge-710lq.jpg" sizes = "100vw"
-                    data-srcset="images/myrtle_creek_bridge-400.webp 400w, 
-                            images/myrtle_creek_bridge-710.webp 600w"
-                    data-src="images/myrtle_creek_bridge-400.webp"
+                    src="images/myrtle_creek_bridge-710lq.jpg"
+                    data-src="images/myrtle_creek_bridge-710.webp"
                     alt="Bridge to entrance of Myrtle Creek"/>
                     <p>The bridge entering Myrtle Creek was built in 1922.</p>
             </figure>
             <figure>
                 <img
                     class="lazy"  
-                    src="images/covered_bridge-710lq.jpg" sizes = "100vw"
-                    data-srcset="images/covered_bridge-400.webp 400w, 
-                            images/covered_bridge-710.webp 700w"
-                    data-src="images/covered_bridge-400.webp"
+                    src="images/covered_bridge-710lq.jpg"
+                    data-src="images/covered_bridge-710.webp"
                     alt="Covered Bridge"/>
                     <p>Tommy's is a Myrtle Creek institution serving up great burgers in a 50's style diner overlooking the river.</p>
             </figure>
@@ -103,12 +105,13 @@
             </div>
             <div class="lastUpdated">     
             &copy; <span id="year"></span> Myrtle Creek Chamber .:|:. Michael J. Sherwood .:|:. Nevada
-            Last updated: <span id="lastUpdated"></span>
+            Last updated: <span id="lastUpdated"></span> .:|:. Day since last visit: <span id="last-visit"></span>
             </div>
         </footer>
     </div>
 
     <script src="scripts/scripts.js"></script>
     <script src="scripts/lazyload.js"></script>
+    <script src="scripts/lastvisit.js"></script>    
 </body>
 </html>

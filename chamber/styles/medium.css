@@ -163,9 +163,18 @@ main {
     margin: .5rem;
 }
 
+/*--Discover Page--*/
+
+
 .lazy {
     display: block;
     grid-column: 3 / 5;
+}
+
+.discover figure {
+    display: block;
+    width: 100%;
+    grid-column: 1 / 11;
 }
 
 } 

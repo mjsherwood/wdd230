@@ -167,6 +167,16 @@ main {
     grid-column: 5 / 11;
 }
 
+.sidebar {
+    grid-column: 1 / 5;
+    grid-row: 1 / 6;
+}
+
+.sidebar .float-element {
+    position: sticky;
+    margin: 1em;
+    padding: 2em;
+}
 
 .lazy {
     display: block;
