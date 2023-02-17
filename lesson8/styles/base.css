@@ -1,6 +1,6 @@
 :root {
-	--back: rgb(0, 0, 0);
-  --back2: hsla(150, 4%, 22%);
+	--back: #0d3e5f;
+  --back2: #555;
   --foredark: hsla(0,0%,10%,1);
 	--forelight: hsla(0,0%,100%,1);
 	--border: hsl(0, 0%, 77%);
@@ -25,7 +25,8 @@ caption {
 
 th:first-child {
     background-color: var(--back);
-    border: none;
+    border-bottom: none;
+    border-top: none;
   }
 
 
