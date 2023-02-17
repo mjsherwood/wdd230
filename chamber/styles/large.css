@@ -175,7 +175,6 @@ main {
 .sidebar .float-element {
     position: sticky;
     margin: 1em;
-    padding: .5em 2em 2em 2em;
 }
 
 .lazy {
