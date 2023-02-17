@@ -158,6 +158,22 @@ main {
     grid-row: 3 / 4;
 }
  
-} 
 
-/* end large */
+
+/*--Discover Page--*/
+.discover figure {
+    display: block;
+    width: 100%;
+    grid-column: 5 / 11;
+}
+
+
+.lazy {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*-- end large --*/
+
+}

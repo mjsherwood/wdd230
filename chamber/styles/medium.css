@@ -163,6 +163,10 @@ main {
     margin: .5rem;
 }
 
+.lazy {
+    display: block;
+    grid-column: 3 / 5;
+}
 
 } 
 

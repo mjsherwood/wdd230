@@ -492,8 +492,44 @@ figure {
     text-decoration: none;
 }
 
-/*--end base--*/
+/*--Discover Page--*/
 
+.discover {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+
+.discover figure {
+    display: block;
+    grid-column: 1 / 11;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.discover figure p {
+    margin: .5em;
+}
+
+.lazy {
+    display: block;
+    width: 100%;
+    grid-column: 1 / 6;
+}
+  
+.lazy img[data-src] {
+    filter: blur(0.2em);
+    transition: filter 0.5s ease-out;
+}
+  
+.lazy img.loaded {
+    filter: blur(0em);
+}
+
+/*--end base--*/
 
 
 
