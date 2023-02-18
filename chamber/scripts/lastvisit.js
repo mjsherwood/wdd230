@@ -13,4 +13,8 @@ if (!lastVisit) {
 
   // Update the div with the number of days since the last visit
   document.getElementById('last-visit').textContent = `${daysSinceLastVisit}`;
+
+  // Update lastVisit to the current time
+  lastVisit = new Date().getTime();
+  localStorage.setItem('lastVisit', lastVisit);
 }
