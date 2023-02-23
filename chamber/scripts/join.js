@@ -1,11 +1,11 @@
   // Get the current date and time
-  //var date = new Date();
+var date = new Date();
   
   // Format the date and time as a string in ISO format
-  //var isoDate = date.toISOString();
+var isoDate = date.toISOString();
   
   // Set the value of the hidden field to the formatted date and time
-  //document.getElementById("load_time").value = isoDate;
+document.getElementById("load_time").value = isoDate;
 
 
 // Get the modal

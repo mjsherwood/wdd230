@@ -60,9 +60,10 @@
               </div>
               <fieldset>
                 <legend>About Your Business</legend>
-                <label class="top">Tell us about your business</label>
-                <textarea name="business-description" rows="5" cols="35"></textarea>
+                <label class="top" name="business-description">Tell us about your business</label>
+                <label name="business-description"><textarea name="business-description" rows="5" cols="35"></textarea></label>
               </fieldset>
+              <input type="hidden" id="load_time" name="load_time">
               <input type="submit" value="Propose My Course" class="submitBtn">       
             </form>
             <div class="modal-background">
@@ -97,9 +98,7 @@
             </div>
         </footer>
     </div>
-
     <script src="scripts/scripts.js"></script>
-    <script src="scripts/lazyload.js"></script>
     <script src="scripts/lastvisit.js"></script>
     <script src="scripts/join.js"></script>
 </body>
