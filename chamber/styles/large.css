@@ -46,7 +46,7 @@ nav ul li a {
 
 
 /*--Main Styling--*/
-main {
+main.principal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -181,6 +181,13 @@ main {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+/*--Join Page Form Styling--*/
+
+
+form label.sbs {
+    padding:   .4rem 0;
 }
 
 /*-- end large --*/

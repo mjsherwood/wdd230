@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 /*--Main Styling--*/
-main {
+main.principal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -177,6 +177,24 @@ main {
     grid-column: 1 / 11;
 }
 
-} 
+/*--Thankyou Page--*/
+.thankyou {
+    margin: 3rem auto;
+}
+
+.thankyou h1 {
+    margin: 1rem auto 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.thankyou p {
+    margin: 1rem auto 1rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+
 
 /*--end medium--*/

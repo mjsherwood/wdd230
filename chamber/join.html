@@ -36,9 +36,48 @@
                 <li><a href="contact.html">Contact</a></li>    
             </ul>
         </nav>
-        <main>
-
-        </main>
+        <main class="joinpage">
+            <h1>Chamber of Commerce Application</h1>
+            <form method="get" action="thankyou.html">
+              <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Title<input type="text" name="title" pattern="[a-zA-Z\- ]{7,}"></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@examplemail.com" required></label>
+                <label class="top">Cell*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Business Name*<input type="text" name="business" required></label>
+              </fieldset>
+              <div class="membership">
+                <fieldset>
+                  <legend class="sbs">Membership Level</legend>
+                  <label class="sbs"><input type="radio" name="level" value="NP"> Non Profit (free)</label>
+                  <label class="sbs"><input type="radio" name="level" value="Bronze"> Bronze ($19.99/month)</label>
+                  <label class="sbs"><input type="radio" name="level" value="Silver"> Silver ($29.99/month)</label>
+                  <label class="sbs"><input type="radio" name="level" value="Gold"> Gold ($39.99/month)</label>
+                  <button class="more-info-btn" type="button">More Info</button>
+                </fieldset>
+              </div>
+              <fieldset>
+                <legend>About Your Business</legend>
+                <label class="top">Tell us about your business</label>
+                <textarea name="business-description" rows="5" cols="35"></textarea>
+              </fieldset>
+              <input type="submit" value="Propose My Course" class="submitBtn">       
+            </form>
+            <div class="modal-background">
+              <div class="modal">
+                <h2>Membership Levels Information</h2>
+                <ul>
+                    <li>Non Profit: This level is free and includes basic benefits.</li>
+                    <li>Bronze: This level receives our annual state of the city report and one month placement on homepage </li>
+                    <li>Silver: This level receives all the benefits of the Bronze level and one 45 second radio spot every 6 months</li>
+                    <li>Gold: This level gives all the benefits of the Bronze and Silver levels and banner placement at all high school football games.</li>
+                </ul>
+                <button class="close-modal-btn" type="button">Close</button>
+              </div>
+            </div>
+          </main>
         <footer class="footer">
             <img src="images/logo.webp" alt="Logo of Myrtle Creek chamber of commerce">
             <div class="address">
@@ -61,6 +100,7 @@
 
     <script src="scripts/scripts.js"></script>
     <script src="scripts/lazyload.js"></script>
-    <script src="scripts/lastvisit.js"></script>    
+    <script src="scripts/lastvisit.js"></script>
+    <script src="scripts/join.js"></script>
 </body>
 </html>
