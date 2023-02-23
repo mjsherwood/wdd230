@@ -631,8 +631,8 @@ textarea {
     background-color: #0d3e5f;
     color: white;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: .75rem 0 .75rem 2%;
+    padding: .75rem;
+    margin: .5rem 0;
     width: 95%;
     max-width: 20rem;
 }
@@ -679,8 +679,8 @@ textarea {
     background-color: #0d3e5f;
     color: white;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 1.5rem 0 2rem 2%;
+    padding: .75rem;
+    margin: .75rem 0 .75rem 2%;
     width: 95%;
     max-width: 20rem;
 }
