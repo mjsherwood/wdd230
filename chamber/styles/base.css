@@ -579,9 +579,12 @@ form legend {
 
 form label.top, form div {
     display: block;
-    padding-top: 1rem;
     color: #9c2c13;
-    font-size: .8rem; 
+    font-size: .8rem;
+}
+
+legend.sbs {
+    font-size: 1rem;
 }
 
 form label.top input, form label.top select {
@@ -652,26 +655,26 @@ textarea {
     border-style: solid;
     border-color:#0d3e5f;
     background-color: rgba(255, 255, 255, 1); /* Black background with opacity */
-  }
+}
   
-  /* Modal Content/Box */
-  .modal-content {
+/* Modal Content/Box */
+.modal-content {
     background-color: #fefefe;
     margin: 10% auto; /* 10% from the top and centered */
     padding: 10px;
     width: 50%; /* Could be more or less, depending on screen size */
-  }
+}
 
- .modal h2 {
+.modal h2 {
     margin: 5% auto; /* 10% from the top and centered */
     padding: 0 1rem;
-  }
+}
 
-  .modal li {
+.modal li {
     padding: .5rem 1rem;
     color: #0d3e5f;
     font-size: .9rem;
-  }
+}
   
 /* Close Button */
 .close-modal-btn {
