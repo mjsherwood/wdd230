@@ -1,0 +1,103 @@
+{
+    "businesses": [
+      {
+        "name": "Cindy's Flowers and Gifts",
+        "street": "137 NE 1st Ave",
+        "city": "Myrtle Creek",
+        "state": "OR",
+        "zip": 97457,
+        "phone": "(541) 430-5725",
+        "weburl": "cindysflowersmyrtlecreek.com",
+        "membership": 4,
+        "image": "images/flower.webp"
+      },
+      {
+        "name": "Myrtle Drugs",
+        "street": "821 S Main Street",
+        "city": "Myrtle Creek",
+        "state": "OR",
+        "zip": 97457,
+        "phone": "(541) 391-8321",
+        "weburl": "myrtledrugsrx.com",
+        "membership": 4,
+        "image": "images/myrtlecreekdrugs.webp"
+      },
+      {
+        "name": "Trueblood Real Estate",
+        "street": "235 NW Second Ave.",
+        "city": "Myrtle Creek",
+        "state": "OR",
+        "zip": 97457,
+        "phone": "(541) 863-5497",
+        "weburl": "truebloodrealestate.net",
+        "membership": 4,
+        "image": "images/truebloodrealestate.webp"
+      },
+      {
+        "name": "Tommy's All American Burger Co.",
+        "street": "151 Main St.",
+        "city": "Myrtle Creek",
+        "state": "OR",
+        "zip": 97457,
+        "phone": "(541) 863-5497",
+        "weburl": "tommys.us",
+        "membership": 4,
+        "image": "images/tommys.webp"
+      },
+      {
+        "name": "Abby's Legendary Pizza",
+        "street": "700 S Main St.",
+        "city": "Myrtle Creek",
+        "state": "OR",
+        "zip": 97457,
+        "phone": "(541) 863-4000",
+        "weburl": "http://abbys.com",
+        "membership": 4,
+        "image": "images/abbys.webp"
+      },
+      {
+        "name": "Ace Hardware",
+        "street": "225 NE 1st Ave",
+        "city": "Myrtle Creek",
+        "state": "OR",
+        "zip": 97457,
+        "phone": "(541) 863-4431",
+        "weburl": "http://www.acehardware.com",
+        "membership": 4,
+        "image": "images/truck_icon.png"
+      },
+      {
+        "name": "Computer Solutions",
+        "street": "119 NE 1st Ave",
+        "city": "Myrtle Creek",
+        "state": "OR",
+        "zip": 97457,
+        "phone": "(541) 863-7044",
+        "weburl": "http://www.computersolutionsmc.com",
+        "membership": 4,
+        "image": "images/computersolutions.webp"
+      },
+      {
+        "name": "Frontier Communications",
+        "street": "326 S Old Pacific Hwy",
+        "city": "Myrtle Creek",
+        "state": "OR",
+        "zip": 97457,
+        "phone": "(541) 863-1155",
+        "weburl": "http://west.frontier.com/or/myrtle-creek",
+        "membership": 4,
+        "image": "images/frontier.webp"
+      },
+      {
+        "name": "Glitter Bitten Beauty",
+        "street": "111 2nd Avenue",
+        "city": "Myrtle Creek",
+        "state": "OR",
+        "zip": 97457,
+        "phone": "(206) 678-3987",
+        "weburl": "https://www.facebook.com/glitterbittenbeauty/",
+        "membership": 4,
+        "image": "images/glitter.webp"
+      }
+    ]
+  }
