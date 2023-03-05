@@ -41,7 +41,7 @@
         "zip": 97457,
         "phone": "(541) 863-5497",
         "weburl": "tommys.us",
-        "membership": 4,
+        "membership": 3,
         "image": "images/tommys.webp"
       },
       {
@@ -51,8 +51,8 @@
         "state": "OR",
         "zip": 97457,
         "phone": "(541) 863-4000",
-        "weburl": "http://abbys.com",
-        "membership": 4,
+        "weburl": "abbys.com",
+        "membership": 2,
         "image": "images/abbys.webp"
       },
       {
@@ -62,8 +62,8 @@
         "state": "OR",
         "zip": 97457,
         "phone": "(541) 863-4431",
-        "weburl": "http://www.acehardware.com",
-        "membership": 4,
+        "weburl": "acehardware.com",
+        "membership": 2,
         "image": "images/truck_icon.png"
       },
       {
@@ -73,8 +73,8 @@
         "state": "OR",
         "zip": 97457,
         "phone": "(541) 863-7044",
-        "weburl": "http://www.computersolutionsmc.com",
-        "membership": 4,
+        "weburl": "computersolutionsmc.com",
+        "membership": 3,
         "image": "images/computersolutions.webp"
       },
       {
@@ -84,8 +84,8 @@
         "state": "OR",
         "zip": 97457,
         "phone": "(541) 863-1155",
-        "weburl": "http://west.frontier.com/or/myrtle-creek",
-        "membership": 4,
+        "weburl": "west.frontier.com/or/myrtle-creek",
+        "membership": 2,
         "image": "images/frontier.webp"
       },
       {
@@ -95,8 +95,8 @@
         "state": "OR",
         "zip": 97457,
         "phone": "(206) 678-3987",
-        "weburl": "https://www.facebook.com/glitterbittenbeauty/",
-        "membership": 4,
+        "weburl": "facebook.com/glitterbittenbeauty/",
+        "membership": 2,
         "image": "images/glitter.webp"
       }
     ]

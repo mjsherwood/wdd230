@@ -3,12 +3,22 @@
     text-align: center;
 }
 
-.cards {
+.businesses {
+  display: grid;
+  place-items: center;
+}
+
+/*  .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    place-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 10px;
+  }*/
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
   }
 
   .cards section {
@@ -16,6 +26,7 @@
     flex-direction: column;
     align-self: center;
     margin: 10px;
+    padding: 10px;
     max-width: 280px;
     min-width: 280px;
     height: auto;
@@ -26,7 +37,7 @@
     margin: 10px;
     overflow: hidden; 
     text-align: center;
-    font-size: 1.3rem; 
+    font-size: 1.2rem; 
   }
 
   .cards p {
@@ -41,5 +52,5 @@
     align-self: center; 
     width: auto;
     max-width: 150px;
-    max-height: 100px;
+    max-height: 75px;
   }
