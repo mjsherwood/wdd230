@@ -409,6 +409,12 @@ figure {
     grid-row: 5 / 6;
 }
 
+.weather-attribution {
+    grid-column: 1 / -1;
+    font-size: .6rem;
+    text-align: center;
+}
+
 .newsRelease {
     border-style: solid;
     border-width: 1px;
