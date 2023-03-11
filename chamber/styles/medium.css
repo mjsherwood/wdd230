@@ -55,7 +55,7 @@ nav ul li a {
 main.principal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     margin: .5rem;
 }
 
@@ -195,6 +195,30 @@ main.principal {
     text-align: center;
 }}
 
+.contact-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-right: auto;
+    margin-left:auto;
+    width: 100%;
+    max-width: 900px;
+}
+
+.contact-map {
+    grid-column: 1 / 3;
+    margin: 1rem;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.contact-form {
+    grid-column: 1 / 2;
+}
+
+.contact-info {
+    grid-column: 2 / 3;
+}
 
 
 /*--end medium--*/

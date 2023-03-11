@@ -37,6 +37,57 @@
             </ul>
         </nav>
         <main>
+            <h1 id=contact>Contact the Chamber</h1>
+            <div class="contact-page">
+                <div class="contact-map">
+                    <h2>Myrtle Creek Map</h2>
+                    <!--The div element for the map -->
+                    <div id="map"></div>
+                </div>
+                <div class="contact-form">
+                    <form method="get" action="thankyou.html">
+                        <fieldset>
+                          <legend>Your Information</legend>
+                          <label class="top">First Name*<input type="text" name="fname" required></label>
+                          <label class="top">Last Name*<input type="text" name="lname" required></label>
+                          <label class="top">Email*<input type="email" name="email" placeholder="someone@examplemail.com" required></label>
+                          <label class="top">Cell*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your Question</legend>
+                        <label class="top" for="business-description">Tell us how we can help you</label>
+                        <textarea id="business-description" rows="5" cols="35"></textarea>
+                    </fieldset>
+                </div>
+                <div class="contact-info">
+                    <h2>VISIT US</h2>
+                    <p>Myrtle Creek Chamber of Commerce</p>
+                    <p>425 NW 2nd Ave</p>
+                    <p>Myrtle Creek, OR 97457</p>
+                    <p></p>
+                    <h2>POINTS OF CONTACT</h2>
+                    <p><strong>President:</strong></p>
+                    <p>Katy Bernal</p>
+                    <p>Realtor, Sony Murray Realty</p>
+                    <p>(541) 505-6433</p>
+                    <p></p>
+                    <p><strong>Vice President:</strong></p>
+                    <p>Denise Ware</p>
+                    <p>SOCO Coffee Company</p>
+                    <p>(541) 860-5555</p>
+                    <p></p>
+                    <p><strong>Secretary/Treasurer:</strong></p>
+                    <p>Ted Romas</p>
+                    <p>Happily Retired</p>
+                    <p>(541) 860-5846</p>
+                    <p></p>
+                    <p><strong>Board Members</strong></p>
+                    <p>Lacey Williams, Trueblood Estate (541)863-5777</p>
+                    <p>Susan Harris, The Happy Donut (541)863-6500</p>
+                    <p>Jerrie Thomas, Goodog Bakery (541)643-3306</p>
+                    <p>Terry L. Day, St. Vincent de Paul (541)863-5489</p>                   
+                </div>
+            </div>
         </main>
         <footer class="footer">
             <img src="images/logo.webp" alt="Logo of Myrtle Creek chamber of commerce">
@@ -60,6 +111,10 @@
 
     <script src="scripts/scripts.js"></script>
     <script src="scripts/lazyload.js"></script>
-    <script src="scripts/lastvisit.js"></script>    
+    <script src="scripts/lastvisit.js"></script>
+    <script src="scripts/embeddedmap.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcRG_zuAvPy_c0XEo-QbSBSul-EmoKxZg&callback=initMap">
+    </script>    
 </body>
 </html>
