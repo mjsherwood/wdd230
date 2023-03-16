@@ -507,6 +507,8 @@ figure {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 10px;
+    max-width: 1200px;
+    margin: auto auto;
 }
 
 .discover figure {
