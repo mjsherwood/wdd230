@@ -18,4 +18,4 @@ dots.forEach((dot, index) => {
   });
 });
 
-setInterval(() => changeSlide(1), 10000);
+setInterval(() => changeSlide(1), 5000);

@@ -433,10 +433,10 @@ figure {
     margin: .7rem;
 }
 
-.spotlight {
+.spotlights {
     grid-row: 5 / 7;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     column-gap: 1rem;
     border-style: solid;
     border-color: #0d3e5f;
@@ -447,32 +447,29 @@ figure {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.spotlights h1 {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
 .spotlight h2, .spotlight p {
     color: #0d3e5f;
     margin: .2rem;
 }
 
-.spotlight1, .spotlight2, .spotlight3 {
+#spotlight1, #spotlight2, #spotlight3 {
     border-style: solid;
     border-width: 1px;
     border-color: #fff;
     background-color: #fff;
     width: 100%;
-    padding: .5rem;
-    margin: .5rem;
+    padding: 1rem;
+    margin: 1rem auto;
     justify-self: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.spotlight1 {
-    grid-row: 1 / 2;
-}
-
-.spotlight2 {
-    grid-row: 2 / 3;
-}
-
-.spotlight3 {
+#spotlight3 {
     display: none;
 }
 
@@ -777,7 +774,61 @@ textarea {
     width: 100%;
   }
 
+  .businesses h1 {
+    text-align: center;
+}
 
+.businesses {
+  display: grid;
+  place-items: center;
+}
+
+/*  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 1000px;
+    padding: 10px;
+  }*/
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+  }
+
+  .cards section {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 10px;
+    padding: 10px;
+    max-width: 280px;
+    min-width: 280px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .cards h2 {
+    margin: 10px;
+    overflow: hidden; 
+    text-align: center;
+    font-size: 1.2rem; 
+  }
+
+  .cards p {
+    margin: 5px;
+    text-align: center;
+  }
+
+  .cards img {
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+    align-self: center; 
+    width: auto;
+    max-width: 150px;
+    max-height: 75px;
+  }
 
 /*--end base--*/
 

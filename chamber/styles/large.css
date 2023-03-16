@@ -108,7 +108,7 @@ main.principal {
     grid-row: 3 / 4;
 }
 
-.spotlight {
+.spotlights {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -120,29 +120,22 @@ main.principal {
     max-height: 65px;
 }
 
-.spotlight1 {
+#spotlight1 {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 }
 
-.spotlight2 {
+#spotlight2 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 }
 
 #spotlight3 {
+    display: grid;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
 }
 
-.spotlight3 {
-    display: block;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #0d3e5f;
-    padding: .5rem;
-    margin: .5rem;
-}
 
 .join {
     display: block;

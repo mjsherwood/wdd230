@@ -121,22 +121,32 @@ main.principal {
     grid-row: 2 / 3;
 }
 
-.spotlight {
+.spotlights {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto auto;
     grid-column: 1 / 7;
     grid-row: 3 / 4;
 }
 
-.spotlight1 {
-    grid-column: 1 / 2;
+.spotlights h1 {
+    grid-column: 1 / -1;
     grid-row: 1 / 2;
 }
 
-.spotlight2 {
+.spotlight {
+    margin: auto auto;
+    justify-self: center;
+}
+
+#spotlight1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#spotlight2 {
     grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
 }
 
 
