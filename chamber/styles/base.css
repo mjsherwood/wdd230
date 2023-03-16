@@ -795,7 +795,11 @@ textarea {
     max-width: 1000px;
     justify-content: center;
   }
-
+  
+  .cards.list-view {
+    display: block;
+  }
+  
   .cards section {
     display: flex;
     flex-direction: column;
@@ -807,27 +811,53 @@ textarea {
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-
+  
+  .cards section.list {
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: none;
+  }
+  
   .cards h2 {
     margin: 10px;
-    overflow: hidden; 
+    overflow: hidden;
     text-align: center;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
   }
-
+  
+  .cards h2.list {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
   .cards p {
     margin: 5px;
     text-align: center;
   }
-
+  
+  .cards p.list {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
   .cards img {
     margin: 10px;
     padding: 5px;
     overflow: hidden;
-    align-self: center; 
+    align-self: center;
     width: auto;
     max-width: 150px;
     max-height: 75px;
+  }
+  
+  .cards img.list {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: none;
+    width: 300px;
+    height: auto;
   }
 
 /*--end base--*/
