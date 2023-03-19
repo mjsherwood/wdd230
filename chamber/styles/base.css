@@ -723,56 +723,55 @@ textarea {
 .contact-page {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-areas:
+        "map"
+        "info"
+        "form";
+    grid-gap: 1rem;
     margin-right: auto;
-    margin-left:auto;
+    margin-left: auto;
     width: 100%;
     max-width: 900px;
 }
 
-#contact {
-    text-align: center;
-}
-
 .contact-map {
-    grid-column: 1 / 2;
-    margin: 1rem;
-    padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
-}
-
-.contact-map h2 {
-    margin: 1rem;
-    text-align: center;
+    grid-area: map;
 }
 
 .contact-form {
-    grid-column: 1 / 2;
-    margin: 1rem;
+    grid-area: form;
+}
+
+.contact-info {
+    grid-area: info;
+}
+
+.contact-map,
+.contact-form,
+.contact-info {
+    box-sizing: border-box;
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 }
 
-.contact-info {
-    grid-column: 1 / 2;
-    margin: 1rem;
-    padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
-}
-
+.contact-map h2,
 .contact-info h2 {
-    text-align: center;
     margin: 1rem;
+    text-align: center;
 }
 
 .contact-info p {
     margin: .3rem 1rem;
 }
 
+#contact {
+    text-align: center;
+}
+
 #map {
     height: 400px;
     width: 100%;
-  }
+}
 
 .businesses h1 {
     text-align: center;
