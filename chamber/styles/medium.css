@@ -10,20 +10,6 @@ header h1 {
 	font-size: 1.7rem;
 }
 
-/*--Nav Styling--
-nav button {display: none;}
-
-nav ul#primaryNav {
-    display: flex;
-    justify-content: center;
-    border-left: 1px solid rgba(0,0,0,.3);
-}
-
-nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(0,0,0,.3);
-}
-
 /*--Footer Styling--*/
 .footer {
     display: grid;
@@ -229,6 +215,5 @@ main.principal {
 .contact-info {
     grid-column: 2 / 3;
 }
-
 
 /*--end medium--*/

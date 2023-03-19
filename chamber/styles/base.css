@@ -220,7 +220,6 @@ footer a {
 main.principal {
     display: grid;
     grid-template-columns: 1fr;
-/*--    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; --*/
     grid-template-rows: auto;
     margin: .5rem;
 }
@@ -260,7 +259,6 @@ figure {
     max-height: 300px;
     min-height: 300px;
     width: 100%;
-/*--    object-fit: fill; --*/
 }
   
 .slide h2 {
@@ -653,30 +651,30 @@ textarea {
 
 /* The modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
     left: 10px;
     top: 10px;
     max-width: 20rem;
-    width: 100%; /* Full width */
-    height: auto; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    width: 100%; 
+    height: auto; 
+    overflow: auto; 
     border-style: solid;
     border-color:#0d3e5f;
-    background-color: rgba(255, 255, 255, 1); /* Black background with opacity */
+    background-color: rgba(255, 255, 255, 1); 
 }
   
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 10% auto; /* 10% from the top and centered */
+    margin: 10% auto; 
     padding: 10px;
-    width: 50%; /* Could be more or less, depending on screen size */
+    width: 50%; 
 }
 
 .modal h2 {
-    margin: 5% auto; /* 10% from the top and centered */
+    margin: 5% auto;
     padding: 0 1rem;
 }
 
@@ -776,74 +774,81 @@ textarea {
     width: 100%;
   }
 
-  .businesses h1 {
+.businesses h1 {
     text-align: center;
 }
 
 .businesses {
-  display: grid;
-  place-items: center;
+    display: grid;
+    place-items: center;
 }
 
-/*  .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    max-width: 1000px;
-    padding: 10px;
-  }*/
-  .cards {
+.cards {
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
     justify-content: center;
-  }
-  
-  .cards.list-view {
-    display: block;
-  }
-  
-  .cards section {
+}
+
+.cards.list-view {
     display: flex;
     flex-direction: column;
-    align-self: center;
+}
+
+.cards section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 10px;
     padding: 10px;
     max-width: 280px;
     min-width: 280px;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  
-  .cards section.list {
-    display: block;
-    margin: 20px;
-    padding: 20px;
+}
+
+.cards section.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     box-shadow: none;
-  }
-  
-  .cards h2 {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+.cards section.list:nth-child(odd) {
+    background-color: #e0e0e0;
+}
+
+.cards.list-view section.list {
+    flex-direction: column;
+}
+
+.cards h2 {
     margin: 10px;
     overflow: hidden;
     text-align: center;
     font-size: 1.2rem;
-  }
-  
-  .cards h2.list {
+}
+
+.cards h2.list {
     margin: 0;
     font-size: 1.5rem;
-  }
-  
-  .cards p {
+}
+
+.cards p {
     margin: 5px;
     text-align: center;
-  }
-  
-  .cards p.list {
+}
+
+.cards p.list {
     margin: 0;
     font-size: 1.2rem;
-  }
-  
-  .cards img {
+}
+
+.cards img {
     margin: 10px;
     padding: 5px;
     overflow: hidden;
@@ -851,16 +856,11 @@ textarea {
     width: auto;
     max-width: 150px;
     max-height: 75px;
-  }
-  
-  .cards img.list {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    max-height: none;
-    width: 300px;
-    height: auto;
-  }
+}
+
+.cards img.list {
+    display: none;
+}
 
 /*--end base--*/
 
