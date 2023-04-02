@@ -67,7 +67,7 @@ a:hover, .btn:hover {
 }
   
 .btn {
-    background-color: #2a6b2d;
+    background-color: #1f5522;
     color: #FFF;
     padding: 0.8em 1.5em;
     display: inline-block;
@@ -143,7 +143,7 @@ nav ul.open {
 
 /*--Main Styling--*/
 main {
-    border-bottom: double #2a6b2d;
+    border-bottom: double #1f5522;
     margin-bottom: 5px;
 }
 
@@ -162,7 +162,7 @@ main {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #2a6b2d;
+    background-color: #1f5522;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -175,7 +175,7 @@ main {
 }
 
 .weather h2 {
-    color: #2a6b2d;
+    color: #1f5522;
 }
 
 /*--Footer Styling--*/
@@ -183,7 +183,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    background-color: #2a6b2d;
+    background-color: #1f5522;
 }
 
 footer .logo, .address, .contactInfo, .copyright {
@@ -237,18 +237,18 @@ footer .socialmedia img {
 }
 
 .aboutcarlsbad h2 {
-    color:#2a6b2d;
+    color:#1f5522;
 }
 
 .drinksmade h2 {
-    color:#2a6b2d;
+    color:#1f5522;
 }
 
 /*--Fresh Styling--*/
 
 
 .fresh h2 {
-    color:#2a6b2d;
+    color:#1f5522;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -283,7 +283,7 @@ form input, form select, form textarea {
     margin-top: 20px;
     border: 1px solid #ccc;
     padding: 10px;
-    background-color: #2a6b2d;
+    background-color: #1f5522;
     color: white;
     border-radius: 5px;
     max-width: 370px;
@@ -292,7 +292,7 @@ form input, form select, form textarea {
 }
 
 #submitForm {
-    background-color: #2a6b2d;
+    background-color: #1f5522;
     border: none;
     color: white;
     padding: 16px 50px;
@@ -320,7 +320,7 @@ form input, form select, form textarea {
 }
 
 .about h2 {
-    color: #2a6b2d;
+    color: #1f5522;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
