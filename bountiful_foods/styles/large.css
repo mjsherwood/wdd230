@@ -1,0 +1,51 @@
+/* 64rem is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+
+/*--Universal Styling--*/
+
+/*--Header Styling--*/
+
+/*--Nav Styling--*/
+nav button {display: none;}
+
+nav ul#primaryNav {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid rgba(0,0,0,.3);
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0,0,0,.3);
+}
+
+nav ul {
+	display: grid;
+ 	grid-template-columns: repeat(12, 1fr); 
+	grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+} 
+
+nav a {
+	font-size: 1.1rem;
+}
+
+nav a:hover {
+	background-color: #FF9800;
+	color: #FF9800; 
+	--d: 75%;
+}
+nav ul li a {
+    padding: .75rem;
+}
+/*--Main Styling--*/
+
+/*--Footer Styling--*/
+
+/*--Index Styling--*/
+
+/*--Fresh Styling--*/
+
+/*--About Styling--*/
+
+}

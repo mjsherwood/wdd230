@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Bountiful Foods">
+<meta name="author" content="Michael Sherwood">
+<title>Bountiful Foods</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/base.css" rel="stylesheet">
+<link href="styles/medium.css" rel="stylesheet">
+<link href="styles/large.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <img class="logo" src="images/Logo_Beautiful_Foods_Small.webp" alt="Logo of Bountiful Foods">
+        </header>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <main class="about">
+            <section class="hero-banner">
+                <img class="hero" src="images/about_us_banner.webp" alt="a smoothy restaurant">
+            </section>
+            <section class="history">
+                <h2>Company History</h2>
+                <p>Dude, back in 2021, these two gnarly brothers, like, had a vision, man. 
+                They were shreddin' the waves in sunny Carlsbad, and after catching some sick barrels, 
+                they were craving the most bodacious, organic fruit smoothies ever, you know? 
+                So, they paddled out of the surf and founded their own juice and fresh fruit bar, 
+                bringing the freshest, most tubular smoothies straight to their fellow surfers and beachgoers. 
+                They're all about good vibes, healthy living, and like, keepin' it real with Mother Nature, man. 
+                Now, the whole community can ride the wave of delicious, organic fruit smoothies and snacks. 
+                Hang loose, and catch you on the flip side at our juice bar, bro!
+                </p>
+            </section>
+            <section class="contact">
+                <h2>Contact Information</h2>
+                <p>3427 Via Montebello, Suite 180</p>
+                <p>Carlsbad, CA 92009</p>
+                <p>Email: contactus@bountifulfoods.com</p>
+                <p>Phone: (888)888-8888</p>
+            </section>
+            <section class="map">
+                <h2>Our Location</h2>
+                <div id="map" style="width: 100%; height: 400px;"></div>
+            </section>
+        </main>
+        <footer>
+            <img class="logo" src="images/Logo_Beautiful_Foods_White.webp" alt="Logo of Bountiful Foods">
+            <div class="address">
+                <h2>Bountiful Foods</h2>
+                <p>3427 Via Montebello, Suite 180</p>
+                <p>Carlsbad, CA 92009</p>
+            </div>
+            <div class="contactInfo">
+                <p>contactus@bountifulfoods.com</p>
+                <p>(888) 888-8888</p>
+                <a target="_blank" rel="noopener" href="https://goo.gl/maps/BN7Nv5h8svk49Snf8"><img src="images/icon_map.webp" alt="map icon">Find Us</a>
+            </div>
+            <div class="socialmedia">
+                <a target="_blank" rel="noopener" href="https://www.facebook.com" class="facebook"><img src="images/icon_facebook.webp" alt="facebook logo"></a>
+                <a target="_blank" rel="noopener" href="https://twitter.com" class="twitter"><img src="images/icon_twitter.webp" alt="twitter logo"></a>
+                <a target="_blank" rel="noopener" href="https://instagram.com" class="instagram"><img src="images/icon_instagram.webp" alt="instagram logo"></a>
+            </div>
+            <div class="copyright">
+                &copy; <span id="year"></span> Bountiful Foods .:|:. Michael Sherwood .:|:. California
+                Last updated: <span id="lastUpdated"></span>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/fruit.js"></script>
+    <script src="scripts/map.js"></script>  
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcRG_zuAvPy_c0XEo-QbSBSul-EmoKxZg"></script> 
+</body>
+</html>

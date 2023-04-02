@@ -1,0 +1,87 @@
+/* 35rem is also 560px when basefont is 16p */
+@media only screen and (min-width: 35rem) {
+
+
+/*--Universal Styling--*/
+
+/*--Header Styling--*/
+
+/*--Nav Styling--*/
+
+/*--Main Styling--*/
+
+/*--Footer Styling--*/
+
+footer .logo {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+footer .address {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+footer .contactInfo {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+footer .copyright {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+footer .socialmedia {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    margin-top: 2rem;
+}
+
+/*--Index Styling--*/
+.home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.hero-container {
+    grid-column: 1 / -1;
+}
+
+/*--Fresh Styling--*/
+.fresh {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+.fresh .hero-banner {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+
+.drinkinstructions {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+#drinkForm {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+}
+
+.fresh #output {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+#output {
+    width: 370px;
+}
+
+form {
+    width: 400px;
+}
+
+/*--About Styling--*/
+
+}

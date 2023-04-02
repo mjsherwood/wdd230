@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Bountiful Foods">
+<meta name="author" content="Michael Sherwood">
+<title>Bountiful Foods</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="styles/normalize.css" rel="stylesheet">
+<link href="styles/base.css" rel="stylesheet">
+<link href="styles/medium.css" rel="stylesheet">
+<link href="styles/large.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <img class="logo" src="images/Logo_Beautiful_Foods_Small.webp" alt="Logo of Bountiful Foods">
+        </header>
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <main class="home">
+            <div class="hero-container">
+                <img class="hero" src="images/banner_fruit_smoothies.webp" alt="a bunch of fruits">
+                <a href="fresh.html" class="create-drink-btn">Create a Custom Drink</a>
+            </div>
+            <div class="aboutcarlsbad">
+                <h2>About Carlsbad</h2>
+                <p>Carlsbad, California, is a picturesque coastal city located in North San Diego County. 
+                Known for its stunning beaches, world-class golf courses, and temperate climate, Carlsbad 
+                attracts visitors and residents alike who appreciate the laid-back Southern California lifestyle.</p>
+                <ul>
+                    <li>Carlsbad is home to LEGOLAND California.</li>
+                    <li>The city has seven miles of coastline</li>
+                    <li>It is home to several companies, including Callaway Golf, TaylorMade, and Viasat</li>
+                    <li>Carlsbad is named after a famous spa in the Czech Republic, Karlsbad</li>
+                </ul>
+            </div>
+            <div class="weather">
+                <h2 class="weather-top">Weather in Carlsbad</h2>
+                <img id="weather-icon" class="weather-image" alt="weather icon">
+                <h1 class="weather-temp"><span>&#176;</span></h1>
+                <h2 id="shortForecast" class="weather-type"></h2>
+                <p class="weather-humidity">Humidity: <span id="humidity"></span>%</p>
+                <h3 class="weather-forecast">3-Day Temperature Forecast</h3>
+                <ul class="weather-forecast-list">
+                  <li id="forecast-day1"></li>
+                  <li id="forecast-day2"></li>
+                  <li id="forecast-day3"></li>
+                </ul>
+                <p class="weather-attribution">data from openweathermap.org</p>
+            </div>
+            <div class="drinksmade">
+                <h2>Specialty Drinks Made:</h2>
+                <span id="drinkCount">0</span>
+            </div>
+        </main>
+        <footer>
+            <img class="logo" src="images/Logo_Beautiful_Foods_White.webp" alt="Logo of Bountiful Foods">
+            <div class="address">
+                <h2>Bountiful Foods</h2>
+                <p>3427 Via Montebello, Suite 180</p>
+                <p>Carlsbad, CA 92009</p>
+            </div>
+            <div class="contactInfo">
+                <p>contactus@bountifulfoods.com</p>
+                <p>(888) 888-8888</p>
+                <a target="_blank" rel="noopener" href="https://goo.gl/maps/BN7Nv5h8svk49Snf8"><img src="images/icon_map.webp" alt="map icon">Find Us</a>
+            </div>
+            <div class="socialmedia">
+                <a target="_blank" rel="noopener" href="https://www.facebook.com" class="facebook"><img src="images/icon_facebook.webp" alt="facebook logo"></a>
+                <a target="_blank" rel="noopener" href="https://twitter.com" class="twitter"><img src="images/icon_twitter.webp" alt="twitter logo"></a>
+                <a target="_blank" rel="noopener" href="https://instagram.com" class="instagram"><img src="images/icon_instagram.webp" alt="instagram logo"></a>
+            </div>
+            <div class="copyright">
+                &copy; <span id="year"></span> Bountiful Foods .:|:. Michael Sherwood .:|:. California
+                Last updated: <span id="lastUpdated"></span>
+            </div>
+        </footer>
+    </div>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/fruit.js"></script>
+</body>
+</html>
