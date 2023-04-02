@@ -83,5 +83,11 @@ form {
 }
 
 /*--About Styling--*/
+.history, .contact, .map {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left:
+}
+
 
 }
